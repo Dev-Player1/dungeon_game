@@ -15,6 +15,7 @@ heal_box = Healing("Heal_Box", 70, 40)
 bandage = Healing("Bandage", 15, 9)
 music = Weapon("Music", 40, 200000)
 pennyroyal_tea = Healing("Pennyroyal_tea", 30, 20)
+Death_sword = Weapon("Death_sword", 100, 2000)
 
 
 clothes_armor = Armor("Clothes_armor", 1, 2)
