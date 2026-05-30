@@ -28,6 +28,7 @@ wolf_fur = Armor("Wolf_fur", 2, 4)
 bear_fur = Armor("Bear_fur", 5, 7)
 costume = Armor("Costume", 1, 8)
 music_armor = Armor("Music_Armor", 30, 1000000)
+Death_armor = Armor("Death_armor", 400, 3000)
 
 #joker = Enemy("Joker", 50, 100000, pistol, bulletproof_armor, "Enemy", 80)
 #batman = Hero("Bruce_Wayne", 100, 9000000000, batarang, very_super_bulletproof_armor)
@@ -64,7 +65,7 @@ room9 = Room("Two_Bears_Room", [bear1,bear2])
 room10 = Room("Boss_Room", [Boss])
 
 
-goods = [sword, pistol, stick, bone, batarang, lether_armor, iron_armor, diamond_armor, bulletproof_armor, shotgun, heal_box, bandage, pennyroyal_tea, very_super_bulletproof_armor]
+goods = [sword, pistol, stick, bone, batarang, lether_armor, iron_armor, diamond_armor, bulletproof_armor, shotgun, heal_box, bandage, pennyroyal_tea, very_super_bulletproof_armor, Death_sword, Death_armor]
 trader = Trader("Mystery", goods, 1000)
 
 dungeon_rooms = [room1, room2, room3, room4, room5, room6, room7, room8, room9, room10]
