@@ -146,8 +146,11 @@ class Healing:
     
     def pen_tea(self, hero):
         hero.hp = hero.hp + self.healing
+        if hero.hp >= 100:
+            print("У вас максимум здоровья")
+            hero.hp = 100
         print(f"Использован {self.name}")
-        print(f"Ваше здоровье увеличилось на {self.healing} единиц")
+        print(f"Ваше здоровье увеличилось на {self.healing} единиц. У вас {hero.hp} здоровья.")
         text = random.randint(1,3)
         if text == 1:
             print("I'm on warm milk and laxitives. Cherry flavoured antacids")
@@ -155,7 +158,6 @@ class Healing:
             print("Distill the life that inside of me")
         elif text == 3:
             print("I'm anemic royalty")
-      
 
 class Room:
     def __init__(self, name, enemies):
